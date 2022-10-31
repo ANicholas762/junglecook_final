@@ -1,0 +1,15 @@
+{
+  "name": "n315_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
