@@ -1,0 +1,73 @@
+footer {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    // background-color: bisque;
+    top: 846px;
+
+    .copy {
+        position: relative;
+        width: 266px;
+        height: 18px;
+        // background-color: lavender;
+        left: 60px;
+        top: 30px;
+
+        h2 {
+            font-family: lato_italic;
+            font-size: 16px;
+            color: #000;
+        }
+    }
+
+    .links {
+        position: relative;
+        width: 520px;
+        height: 18px;
+        // background-color: lightpink;
+        top: 12px;
+        left: 600px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            position: relative;
+            font-family: lato_italic;
+            font-size: 16px;
+            color: #000;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+
+    .iconsOne {
+        position: relative;
+        width: 100px;
+        height: 30px;
+        // background-color: lightgoldenrodyellow;
+        top: -6px;
+        left: 1600px;
+        display: flex;
+        justify-content: space-between;
+
+        .fb {
+            height: 30px;
+            width: 30px;
+            // background-color: goldenrod;
+            background-image: url(../images/facebook.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .insta {
+            height: 30px;
+            width: 30px;
+            // background-color: goldenrod;
+            background-image: url(../images/instagram.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}

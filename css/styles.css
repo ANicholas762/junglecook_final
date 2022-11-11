@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: caveat_regular;
+  src: url(../css/fonts/Caveat-Regular.ttf);
+}
+@font-face {
+  font-family: caveat_bold;
+  src: url(../css/fonts/Caveat-Bold.ttf);
+}
+@font-face {
+  font-family: lato_regular;
+  src: url(../css/fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: lato_bold;
+  src: url(../css/fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: lato_italic;
+  src: url(../css/fonts/Lato-Italic.ttf);
+}
+.hero {
+  width: 100%;
+  height: 100%;
+  background-color: palevioletred;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 92, 84, 0.6)), to(rgba(242, 92, 84, 0.6))), url(../images/hero.png);
+  background-image: linear-gradient(rgba(242, 92, 84, 0.6), rgba(242, 92, 84, 0.6)), url(../images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  width: 224px;
+  height: 55px;
+  top: 40px;
+  left: 40px;
+}
+
+.circOne {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  background-color: #FCBCB8;
+  left: 870px;
+  top: 240px;
+  border-radius: 50%;
+}
+.circOne p {
+  position: relative;
+  width: 106px;
+  height: 38px;
+  font-family: lato_italic;
+  font-size: 12px;
+  top: 60px;
+  left: 46px;
+}
+
+.circTwo {
+  position: absolute;
+  width: 358px;
+  height: 358px;
+  background-color: #FFD972;
+  left: 600px;
+  top: 280px;
+  border-radius: 50%;
+}
+.circTwo h2 {
+  position: relative;
+  left: 120px;
+  top: 100px;
+  font-family: caveat_bold;
+  font-size: 32px;
+}
+.circTwo p {
+  position: relative;
+  width: 166px;
+  height: 100px;
+  left: 100px;
+  top: 110px;
+  text-align: center;
+  font-family: lato_regular;
+  font-size: 13px;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 50px;
+}
+nav a {
+  position: relative;
+  padding: 0 16px;
+  right: 220px;
+  font-family: caveat_regular;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000;
+}
+
+.login {
+  position: absolute;
+  width: 158px;
+  height: 52px;
+  background-color: #FFD972;
+  border-radius: 22px;
+  left: 1560px;
+  top: 40px;
+}
+.login a {
+  position: relative;
+  left: 50px;
+  top: 4px;
+  font-family: caveat_regular;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  top: 846px;
+}
+footer .copy {
+  position: relative;
+  width: 266px;
+  height: 18px;
+  left: 60px;
+  top: 30px;
+}
+footer .copy h2 {
+  font-family: lato_italic;
+  font-size: 16px;
+  color: #000;
+}
+footer .links {
+  position: relative;
+  width: 520px;
+  height: 18px;
+  top: 12px;
+  left: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .links a {
+  position: relative;
+  font-family: lato_italic;
+  font-size: 16px;
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+footer .iconsOne {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  top: -6px;
+  left: 1600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .iconsOne .fb {
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/facebook.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .iconsOne .insta {
+  height: 30px;
+  width: 30px;
+  background-image: url(../images/instagram.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
