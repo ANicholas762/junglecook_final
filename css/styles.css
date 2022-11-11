@@ -160,10 +160,10 @@ footer .copy h2 {
 }
 footer .links {
   position: relative;
-  width: 520px;
+  width: 720px;
   height: 18px;
   top: 12px;
-  left: 600px;
+  left: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,10 +174,11 @@ footer .links {
 footer .links a {
   position: relative;
   font-family: lato_italic;
-  font-size: 16px;
+  font-size: 18px;
   color: #000;
   text-transform: capitalize;
   text-decoration: none;
+  padding: 0 6px;
 }
 footer .iconsOne {
   position: relative;
