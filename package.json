@@ -1,15 +1,27 @@
 {
   "name": "n315_final",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "serve": "live-server"
+    "serve": "live-server",
+    "compile-sass": "sass sass/styles.scss css/styles.css -w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANicholas762/junglecook_final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ANicholas762/junglecook_final/issues"
+  },
+  "homepage": "https://github.com/ANicholas762/junglecook_final#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
 }
