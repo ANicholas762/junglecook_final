@@ -1,0 +1,614 @@
+.hero_two {
+    width: 100%;
+    height: 934px;
+    background-color: lightpink;
+
+    background-image: linear-gradient(rgba(167,232,189,0.6),rgba(167,232,189,0.6)), url(../images/recipe-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .tagline {
+        position: absolute;
+        width: 290px;
+        height: 32px;
+        // background-color: purple;
+        top: 165px;
+        left: 300px;
+
+        h2 {
+            font-family: caveat_bold;
+            font-size: 25px;
+            text-align: left;
+            letter-spacing: 2.5px;
+            color: #000;
+            opacity: 1;
+        }
+    }
+
+    .row_one {
+        position: absolute;
+        width: 1180px;
+        height: 263px;
+        // background-color: red;
+        // margin: 0 auto;
+        margin-top: 240px;
+        margin-left: 260px;
+        display: flex;
+        justify-content: space-around;
+
+        .rec_one {
+            position: relative;
+            width: 524px;
+            height: 263px;
+            // background-color: bisque;
+            display: flex;
+    
+            .pizza_pic {
+                width: 300px;
+                height: 263px;
+                background-color: aqua;
+                border-radius: 24px;
+    
+                background-image: url(../images/recipe-pizza.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            .desc_one {
+                position: relative;
+                width: 300px;
+                height: 263px;
+                background-color: #fff;
+                border-radius: 24px;
+    
+                h2 {
+                    position: relative;
+                    width: 140px;
+                    height: 24px;
+                    font-family: lato_regular;
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    text-align: left;
+                    letter-spacing: 1.5px;
+                    color: #000;
+                    opacity: 1;
+    
+                    margin: 0 auto;
+                    top: 40px;
+                    border-bottom: 4px solid #000;
+                }
+    
+                p {
+                    position: relative;
+                    width: 150px;
+                    height: 55px;
+                    // background-color: lightseagreen;
+    
+                    font-family: lato_regular;
+                    font-size: 10px;
+                    text-align: left;
+                    letter-spacing: 0.9px;
+                    color: #000;
+                    opacity: 1;
+    
+                    margin: 0 auto;
+                    top: 60px;
+                }
+    
+                .serve {
+                    position: relative;
+                    width: 120px;
+                    height: 26px;
+                    // background-color: goldenrod;
+                    margin: 0 auto;
+                    top: 90px;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .ico_piz {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        // background-color: gray;
+    
+                        background-image: url(../images/time.svg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    h4 {
+                        position: relative;
+                        width: 66px;
+                        height: 26px;
+                        // background-color: gray;
+                        font-family: lato_regular;
+                        font-size: 10px;
+                        letter-spacing: 0.2px;
+                        color: #000;
+                        opacity: 1;
+    
+                        text-align: center;
+                        top: 10px;
+                    }
+                }
+    
+                .cook {
+                    position: relative;
+                    width: 120px;
+                    height: 26px;
+                    // background-color: goldenrod;
+                    margin: 0 auto;
+                    top: 100px;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .ico_piz {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        // background-color: gray;
+    
+                        background-image: url(../images/servings.svg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+    
+                    h4 {
+                        position: relative;
+                        width: 66px;
+                        height: 26px;
+                        // background-color: gray;
+                        font-family: lato_regular;
+                        font-size: 10px;
+                        letter-spacing: 0.2px;
+                        color: #000;
+                        opacity: 1;
+    
+                        text-align: center;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+
+        .rec_two {
+                position: relative;
+                width: 524px;
+                height: 263px;
+                // background-color: bisque;
+                display: flex;
+
+        
+                .burger_pic {
+                    width: 300px;
+                    height: 263px;
+                    background-color: aqua;
+                    border-radius: 24px;
+        
+                    background-image: url(../images/recipe-burger.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+        
+                .desc_two {
+                    position: relative;
+                    width: 300px;
+                    height: 263px;
+                    background-color: #fff;
+                    border-radius: 24px;
+        
+                    h2 {
+                        position: relative;
+                        width: 140px;
+                        height: 24px;
+                        font-family: lato_regular;
+                        text-transform: capitalize;
+                        font-size: 15px;
+                        text-align: left;
+                        letter-spacing: 1.5px;
+                        color: #000;
+                        opacity: 1;
+        
+                        margin: 0 auto;
+                        top: 40px;
+                        border-bottom: 4px solid #000;
+                    }
+        
+                    p {
+                        position: relative;
+                        width: 180px;
+                        height: 55px;
+                        // background-color: lightseagreen;
+        
+                        font-family: lato_regular;
+                        font-size: 10px;
+                        text-align: left;
+                        letter-spacing: 0.9px;
+                        color: #000;
+                        opacity: 1;
+        
+                        margin: 0 auto;
+                        top: 50px;
+                    }
+        
+                    .serve2 {
+                        position: relative;
+                        width: 120px;
+                        height: 26px;
+                        // background-color: goldenrod;
+                        margin: 0 auto;
+                        top: 90px;
+                        display: flex;
+                        justify-content: space-between;
+        
+                        .ico_bur {
+                            position: relative;
+                            width: 26px;
+                            height: 26px;
+                            // background-color: gray;
+        
+                            background-image: url(../images/time.svg);
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+        
+                        }
+        
+                        h4 {
+                            position: relative;
+                            width: 66px;
+                            height: 26px;
+                            // background-color: gray;
+                            font-family: lato_regular;
+                            font-size: 10px;
+                            letter-spacing: 0.2px;
+                            color: #000;
+                            opacity: 1;
+        
+                            text-align: center;
+                            top: 10px;
+                        }
+                    }
+        
+                    .cook2 {
+                        position: relative;
+                        width: 120px;
+                        height: 26px;
+                        // background-color: goldenrod;
+                        margin: 0 auto;
+                        top: 100px;
+                        display: flex;
+                        justify-content: space-between;
+        
+                        .ico_bur {
+                            position: relative;
+                            width: 26px;
+                            height: 26px;
+                            // background-color: gray;
+        
+                            background-image: url(../images/servings.svg);
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+        
+                        h4 {
+                            position: relative;
+                            width: 66px;
+                            height: 26px;
+                            // background-color: gray;
+                            font-family: lato_regular;
+                            font-size: 10px;
+                            letter-spacing: 0.2px;
+                            color: #000;
+                            opacity: 1;
+        
+                            text-align: center;
+                            top: 10px;
+                        }
+                    }
+                }
+            }
+    }
+
+    .row_two {
+        position: absolute;
+        width: 1180px;
+        height: 263px;
+        // background-color: red;
+        // margin: 0 auto;
+        margin-top: 300px;
+        margin-left: -620px;
+        display: flex;
+        justify-content: space-around;
+
+        .rec_three {
+            position: relative;
+            width: 524px;
+            height: 263px;
+            // background-color: bisque;
+            display: flex;
+    
+            .cb_pic {
+                width: 300px;
+                height: 263px;
+                background-color: aqua;
+                border-radius: 24px;
+    
+                background-image: url(../images/recipe-pilaf.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            .desc_three {
+                position: relative;
+                width: 300px;
+                height: 263px;
+                background-color: #fff;
+                border-radius: 24px;
+    
+                h2 {
+                    position: relative;
+                    width: 156px;
+                    height: 24px;
+                    font-family: lato_regular;
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    text-align: left;
+                    letter-spacing: 1.5px;
+                    color: #000;
+                    opacity: 1;
+    
+                    margin: 0 auto;
+                    top: 40px;
+                    border-bottom: 4px solid #000;
+                }
+    
+                p {
+                    position: relative;
+                    width: 150px;
+                    height: 55px;
+                    // background-color: lightseagreen;
+    
+                    font-family: lato_regular;
+                    font-size: 10px;
+                    text-align: left;
+                    letter-spacing: 0.9px;
+                    color: #000;
+                    opacity: 1;
+    
+                    margin: 0 auto;
+                    top: 60px;
+                }
+    
+                .serve3 {
+                    position: relative;
+                    width: 120px;
+                    height: 26px;
+                    // background-color: goldenrod;
+                    margin: 0 auto;
+                    top: 90px;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .ico_cb {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        // background-color: gray;
+    
+                        background-image: url(../images/time.svg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    h4 {
+                        position: relative;
+                        width: 66px;
+                        height: 26px;
+                        // background-color: gray;
+                        font-family: lato_regular;
+                        font-size: 10px;
+                        letter-spacing: 0.2px;
+                        color: #000;
+                        opacity: 1;
+    
+                        text-align: center;
+                        top: 10px;
+                    }
+                }
+    
+                .cook3 {
+                    position: relative;
+                    width: 120px;
+                    height: 26px;
+                    // background-color: goldenrod;
+                    margin: 0 auto;
+                    top: 100px;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .ico_cb {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        // background-color: gray;
+    
+                        background-image: url(../images/servings.svg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+    
+                    h4 {
+                        position: relative;
+                        width: 66px;
+                        height: 26px;
+                        // background-color: gray;
+                        font-family: lato_regular;
+                        font-size: 10px;
+                        letter-spacing: 0.2px;
+                        color: #000;
+                        opacity: 1;
+    
+                        text-align: center;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+
+        .rec_four {
+            position: relative;
+            width: 524px;
+            height: 263px;
+            // background-color: bisque;
+            display: flex;
+    
+            .ccm_pic {
+                width: 300px;
+                height: 263px;
+                background-color: aqua;
+                border-radius: 24px;
+    
+                background-image: url(../images/recipe-chowmein.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            .desc_four {
+                position: relative;
+                width: 300px;
+                height: 263px;
+                background-color: #fff;
+                border-radius: 24px;
+    
+                h2 {
+                    position: relative;
+                    width: 140px;
+                    height: 24px;
+                    font-family: lato_regular;
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    text-align: left;
+                    letter-spacing: 1.5px;
+                    color: #000;
+                    opacity: 1;
+    
+                    margin: 0 auto;
+                    top: 40px;
+                    border-bottom: 4px solid #000;
+                }
+    
+                p {
+                    position: relative;
+                    width: 180px;
+                    height: 55px;
+                    // background-color: lightseagreen;
+    
+                    font-family: lato_regular;
+                    font-size: 10px;
+                    text-align: left;
+                    letter-spacing: 0.9px;
+                    color: #000;
+                    opacity: 1;
+    
+                    margin: 0 auto;
+                    top: 50px;
+                }
+    
+                .serve4 {
+                    position: relative;
+                    width: 120px;
+                    height: 26px;
+                    // background-color: goldenrod;
+                    margin: 0 auto;
+                    top: 90px;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .ico_ccm {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        // background-color: gray;
+    
+                        background-image: url(../images/time.svg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+    
+                    }
+    
+                    h4 {
+                        position: relative;
+                        width: 66px;
+                        height: 26px;
+                        // background-color: gray;
+                        font-family: lato_regular;
+                        font-size: 10px;
+                        letter-spacing: 0.2px;
+                        color: #000;
+                        opacity: 1;
+    
+                        text-align: center;
+                        top: 10px;
+                    }
+                }
+    
+                .cook4 {
+                    position: relative;
+                    width: 120px;
+                    height: 26px;
+                    // background-color: goldenrod;
+                    margin: 0 auto;
+                    top: 100px;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .ico_ccm {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        // background-color: gray;
+    
+                        background-image: url(../images/servings.svg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+    
+                    h4 {
+                        position: relative;
+                        width: 66px;
+                        height: 26px;
+                        // background-color: gray;
+                        font-family: lato_regular;
+                        font-size: 10px;
+                        letter-spacing: 0.2px;
+                        color: #000;
+                        opacity: 1;
+    
+                        text-align: center;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
