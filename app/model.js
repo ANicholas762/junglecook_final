@@ -5,7 +5,7 @@ var recipe = {};
 
 
 export function changePage(pageID, callback) {
-  if (pageID == "index" || pageID == "home") {
+  if (pageID == "" || pageID == "home") {
     $.get(`pages/home.html`, function (data) {
      
       $("#app").html(data);
