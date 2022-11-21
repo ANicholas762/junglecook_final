@@ -759,3 +759,10 @@ footer .iconsOne .insta {
   left: 380px;
   top: 200px;
 }
+.hero_three .sign_in .inp_one {
+  position: absolute;
+}
+.hero_three .sign_in .inp_one input {
+  width: 208px;
+  height: 40px;
+}

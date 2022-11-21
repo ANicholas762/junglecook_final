@@ -10,6 +10,15 @@
         background-color: lightgreen;
         left: 380px;
         top: 200px;
+
+        .inp_one {
+            position: absolute;
+
+           input {
+            width: 208px;
+            height: 40px;
+           }
+        }
     }
 }
 
