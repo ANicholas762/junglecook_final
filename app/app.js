@@ -9,17 +9,12 @@ function changeRoute() {
   if (pageID == "" || pageID == "home") {
     MODEL.changePage(pageID, initSubmitListener);
   } else if (pageID == "books") {
-    MODEL.changePage(pageID, buyNow);
-  } else if (pageID == "account") {
-    MODEL.changePage(pageID, initSubmitListener);
-  } else if (pageID == "account" && signedIn == true) {
-    MODEL.changePage("account-logout", initSubmitListener);
+    MODEL.changePage(pageID, placeholder);
   } else {
     MODEL.changePage(pageID);
   }
-
-  
 }
+
 function logOut() {
   $(".logOut").on("click", function (e) {
     console.log("logout");
