@@ -9,10 +9,10 @@
 }
 
 .logo {
-    position: absolute;
-    width: 224px;
+    // position: absolute;
+    width: 250px;
     height: 55px;
-    // background-color: bisque;
+    background-color: bisque;
     top: 40px;
     left: 40px;
     // background-image: url(../images/logo.svg);
@@ -27,6 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: dotted;
 }
 
 .circOne {

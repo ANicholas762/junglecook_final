@@ -1,44 +1,8 @@
-nav {
-    // position: relative;
-    width: 350px
-    height: 32px;
-    border: 5px dotted black;
-
+.nav_log {
+    width: 600px;
+    height: 50px;
+    background-color: red;
     display: flex;
-    justify-content: right;
-    margin-top: 50px;
-
-    a {
-        position: relative;
-        padding: 0 16px;
-        right: 240px;
-        font-family: caveat_regular;
-        font-size: 25px;
-        text-transform: capitalize;
-        text-decoration: none;
-        color: #000;
-    }
-
+    align-items: center;
+    justify-content: space-evenly;
 }
-
-.login {
-    // position: fixed;
-    width: 158px;
-    height: 52px;
-    background-color: #FFD972;
-    border-radius: 22px;
-    margin-left: 1560px;
-    top: 30px;
-    box-shadow: 0px 10px 6px #00000029;
-
-    a {
-        position: relative;
-        left: 50px;
-        top: 4px;
-        font-family: caveat_regular;
-        font-size: 32px;
-        text-decoration: none;
-        color: #000;
-    }
-}
-
