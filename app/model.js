@@ -5,11 +5,27 @@ var recipe = {};
 
 
 export function changePage(pageID, callback) {
-  if (pageID == "home") {
-    $.get(`pages/${pageID}.html`, function(data) {
-      $("#app").html(data)
-    }
-  )}
+  if (pageID == "index" || pageID == "home") {
+    $.get(`pages/home.html`, function (data) {
+     
+      $("#app").html(data);
+      callback();
+    });
+  } else if (pageID == "books") {
+    $.get(`pages/${pageID}.html`, function (data) {
+     
+      $("#app").html(data);
+     
+
+      callback();
+    });
+  } else {
+    $.get(`pages/${pageID}.html`, function (data) {
+      console.log("data " + data);
+      $("#app").html(data);
+      
+    });
+  }
 }
 
 // getters and setters
