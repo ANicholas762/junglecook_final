@@ -1,11 +1,15 @@
 var userInfo = {};
 
-
+var recipe = {};
 
 
 
 export function changePage(pageID, callback) {
-// test note
+  if (pageID == "home") {
+    $.get(`pages/${pageID}.html`, function(data) {
+      $("#app").html(data)
+    }
+  )}
 }
 
 // getters and setters

@@ -107,7 +107,7 @@ function initSubmitListener() {
   logIn();
   signUp();
   logOut();
-  buyNow();
+  
 }
 
 // function test() {
