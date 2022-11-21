@@ -127,7 +127,7 @@ nav {
 nav a {
   position: relative;
   padding: 0 16px;
-  right: 220px;
+  right: 240px;
   font-family: caveat_regular;
   font-size: 25px;
   text-transform: capitalize;
@@ -142,7 +142,7 @@ nav a {
   background-color: #FFD972;
   border-radius: 22px;
   left: 1560px;
-  top: 40px;
+  top: 30px;
   -webkit-box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
           box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
 }
