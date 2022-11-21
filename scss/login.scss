@@ -14,6 +14,20 @@
         .inp_one {
             position: absolute;
 
+            .em {
+                position: relative;
+                width: 208px;
+                height: 40px;
+                background-color: antiquewhite;
+                left: 6px;
+                top: 20px;
+                border-bottom: 2px solid #000;
+
+                input {
+                    background-color: #FFD972;
+                }
+            }
+
            input {
             width: 208px;
             height: 40px;

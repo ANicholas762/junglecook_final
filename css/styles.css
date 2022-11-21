@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 nav {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 32px;
   display: -webkit-box;
@@ -761,6 +761,18 @@ footer .iconsOne .insta {
 }
 .hero_three .sign_in .inp_one {
   position: absolute;
+}
+.hero_three .sign_in .inp_one .em {
+  position: relative;
+  width: 208px;
+  height: 40px;
+  background-color: antiquewhite;
+  left: 6px;
+  top: 20px;
+  border-bottom: 2px solid #000;
+}
+.hero_three .sign_in .inp_one .em input {
+  background-color: #FFD972;
 }
 .hero_three .sign_in .inp_one input {
   width: 208px;
