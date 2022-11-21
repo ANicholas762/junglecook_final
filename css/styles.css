@@ -238,6 +238,9 @@ footer .iconsOne .insta {
 }
 
 .hero_two {
+  position: absolute;
+  top: 0;
+  z-index: -1;
   width: 100%;
   height: 934px;
   background-color: lightpink;
