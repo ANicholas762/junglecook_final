@@ -69,42 +69,44 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 20px;
 }
 
-.circOne {
+.circs {
+  position: absolute;
+  top: 240px;
+  left: 50%;
+}
+.circs .circOne {
   position: absolute;
   width: 168px;
   height: 168px;
   background-color: #FCBCB8;
-  left: 870px;
-  top: 240px;
   border-radius: 50%;
 }
-.circOne p {
+.circs .circOne p {
   position: relative;
   width: 106px;
   height: 38px;
   font-family: lato_italic;
   font-size: 12px;
   top: 60px;
-  left: 46px;
+  left: 40px;
 }
-
-.circTwo {
+.circs .circTwo {
   position: absolute;
   width: 358px;
   height: 358px;
   background-color: #FFD972;
-  left: 600px;
-  top: 280px;
+  right: -100px;
+  top: 80px;
   border-radius: 50%;
 }
-.circTwo h2 {
+.circs .circTwo h2 {
   position: relative;
   left: 120px;
   top: 100px;
   font-family: caveat_bold;
   font-size: 32px;
 }
-.circTwo p {
+.circs .circTwo p {
   position: relative;
   width: 166px;
   height: 100px;
