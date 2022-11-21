@@ -777,12 +777,302 @@ footer .iconsOne .insta {
 }
 
 .hero_three {
+  position: absolute;
+  top: 0;
+  z-index: -1;
   width: 100%;
   height: 934px;
   background-color: #FFD972;
 }
-.hero_three .log_in {
-  width: 280px;
+.hero_three .inputs {
+  width: 1200px;
   height: 400px;
-  background-color: blueviolet;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.hero_three .inputs .log_in {
+  position: relative;
+  width: 233px;
+  height: 400px;
+}
+.hero_three .inputs .log_in .ltag {
+  position: absolute;
+  width: 180px;
+  height: 26px;
+  top: 60px;
+}
+.hero_three .inputs .log_in .ltag h2 {
+  font-size: 30px;
+  font-family: lato_regular;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: #000;
+}
+.hero_three .inputs .log_in .lemail {
+  position: absolute;
+  top: 120px;
+}
+.hero_three .inputs .log_in .lemail input {
+  width: 240px;
+  height: 34px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+  background-color: #FFD972;
+}
+.hero_three .inputs .log_in .lemail input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lemail input ::-moz-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lemail input :-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lemail input ::-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lemail input ::placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lpword {
+  position: absolute;
+  top: 170px;
+}
+.hero_three .inputs .log_in .lpword input {
+  width: 240px;
+  height: 34px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+  background-color: #FFD972;
+}
+.hero_three .inputs .log_in .lpword input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lpword input ::-moz-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lpword input :-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lpword input ::-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .lpword input ::placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .log_in .login #lbtn {
+  width: 158px;
+  height: 52px;
+  background-color: #FFD972;
+  border-radius: 22px;
+  -webkit-box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
+          box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 230px;
+}
+.hero_three .inputs .log_in .login #lbtn a {
+  font-family: caveat_regular;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000;
+}
+.hero_three .inputs .sign_up {
+  width: 233px;
+  height: 400px;
+}
+.hero_three .inputs .sign_up .stag {
+  width: 150px;
+  height: 16px;
+  top: 60px;
+}
+.hero_three .inputs .sign_up .stag h4 {
+  position: relative;
+  font-size: 12px;
+  font-family: lato_italic;
+  text-align: left;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #000;
+  top: 18px;
+}
+.hero_three .inputs .sign_up .stag h2 {
+  font-size: 20px;
+  font-family: lato_regular;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: #000;
+}
+.hero_three .inputs .sign_up .in_boxes {
+  position: relative;
+  width: 233px;
+  height: 200px;
+  display: inline-block;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 60px;
+}
+.hero_three .inputs .sign_up .in_boxes .fn input {
+  width: 240px;
+  height: 34px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+  text-align: left;
+  background-color: #FFD972;
+}
+.hero_three .inputs .sign_up .in_boxes .fn input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .fn input ::-moz-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .fn input :-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .fn input ::-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .fn input ::placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ln {
+  margin-top: 20px;
+}
+.hero_three .inputs .sign_up .in_boxes .ln input {
+  width: 240px;
+  height: 34px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+  background-color: #FFD972;
+}
+.hero_three .inputs .sign_up .in_boxes .ln input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ln input ::-moz-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ln input :-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ln input ::-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ln input ::placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ea {
+  margin-top: 20px;
+}
+.hero_three .inputs .sign_up .in_boxes .ea input {
+  width: 240px;
+  height: 34px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+  background-color: #FFD972;
+}
+.hero_three .inputs .sign_up .in_boxes .ea input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ea input ::-moz-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ea input :-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ea input ::-ms-input-placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .ea input ::placeholder {
+  color: #000;
+  font-family: lato_regular;
+}
+.hero_three .inputs .sign_up .in_boxes .pw {
+  margin-top: 20px;
+}
+.hero_three .inputs .sign_up .in_boxes .pw input {
+  width: 240px;
+  height: 34px;
+  border-style: none;
+  border-bottom: 2px solid #000;
+  background-color: #FFD972;
+}
+.hero_three .inputs .sign_up .in_boxes .pw input ::-webkit-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.hero_three .inputs .sign_up .in_boxes .pw input ::-moz-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.hero_three .inputs .sign_up .in_boxes .pw input :-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.hero_three .inputs .sign_up .in_boxes .pw input ::-ms-input-placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.hero_three .inputs .sign_up .in_boxes .pw input ::placeholder {
+  color: #000;
+  font-family: SegoeUi;
+}
+.hero_three .inputs .sign_up .signup #sbtn {
+  width: 158px;
+  height: 52px;
+  background-color: #FFD972;
+  border-radius: 22px;
+  -webkit-box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
+          box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.hero_three .inputs .sign_up .signup #sbtn a {
+  font-family: caveat_regular;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000;
 }
