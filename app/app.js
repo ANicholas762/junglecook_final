@@ -30,7 +30,7 @@ function logOut() {
 }
 
 function logIn() {
-  $(".login").on("click", function (e) {
+  $(".login_in").on("click", function (e) {
     console.log("submit");
 
     let email = $(".email").val();
