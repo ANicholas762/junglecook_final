@@ -3,36 +3,10 @@
     height: 934px;
     background-color: #FFD972;
 
-    .sign_in {
-        position: absolute;
-        width: 220px;
+    .log_in {
+        width: 280px;
         height: 400px;
-        background-color: lightgreen;
-        left: 380px;
-        top: 200px;
-
-        .inp_one {
-            position: absolute;
-
-            .em {
-                position: relative;
-                width: 208px;
-                height: 40px;
-                background-color: antiquewhite;
-                left: 6px;
-                top: 20px;
-                border-bottom: 2px solid #000;
-
-                input {
-                    background-color: #FFD972;
-                }
-            }
-
-           input {
-            width: 208px;
-            height: 40px;
-           }
-        }
+        background-color: blueviolet;
     }
 }
 
