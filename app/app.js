@@ -16,28 +16,28 @@ function changeRoute() {
 }
 
 function logOut() {
-  $(".logOut").on("click", function (e) {
-    console.log("logout");
+  // $(".logOut").on("click", function (e) {
+  //   console.log("logout");
 
-    alert("Thank you for signing out");
-    signedIn = false;
+  //   alert("Thank you for signing out");
+  //   signedIn = false;
 
-    if (signedIn == false) {
-      MODEL.changePage("account", initSubmitListener);
-      console.log("L");
-    }
-  });
+  //   if (signedIn == false) {
+  //     MODEL.changePage("account", initSubmitListener);
+  //     console.log("L");
+  //   }
+  // });
 }
 
 function logIn() {
   $(".login_in").on("click", function (e) {
     console.log("submit");
 
-    let email = $(".email").val();
-    let password = $(".password").val();
+    let email = $(".lemail").val();
+    let password = $(".lpword").val();
 
-    $(".email").val("");
-    $(".password").val("");
+    $(".lemail").val("");
+    $(".lpword").val("");
 
     if (email == "") {
       alert("enter data");
@@ -54,14 +54,14 @@ function logIn() {
 }
 
 function signUp() {
-  $(".submit").on("click", function (e) {
+  $(".in_boxes").on("click", function (e) {
     console.log("submit");
     //   trace("app.js", "submit");
 
-    let fn = $(".fName").val();
-    let ln = $(".lName").val();
-    let email = $(".signUpEmail").val();
-    let password = $(".signUpPassword").val();
+    let fn = $(".fn").val();
+    let ln = $(".ln").val();
+    let email = $(".ea").val();
+    let password = $(".pw").val();
 
     // make the user object
     if (fn == "") {
@@ -83,10 +83,10 @@ function signUp() {
       // send that object
       MODEL.setUserInfo(userObj);
 
-      $(".fName").val("");
-      $(".lName").val("");
-      $(".signUpEmail").val("");
-      $(".signUpPassword").val("");
+      $(".fn").val("");
+      $(".la").val("");
+      $(".ea").val("");
+      $(".pw").val("");
       signedIn = true;
       alert("Thank you for signing up");
     }

@@ -26,7 +26,9 @@
             position: relative;
             width: 233px;
             height: 400px;
-            // background-color: antiquewhite;  
+            // background-color: antiquewhite;
+            z-index: 10000;  
+
     
             .ltag {
                 position: absolute;
@@ -49,12 +51,14 @@
                 position: absolute;
                 top: 120px;
                 
+                
                 input {
                     width: 240px;
                     height: 34px;
                     border-style: none;
                     border-bottom: 2px solid #000;
                     background-color: #FFD972;
+                    
                     
                     ::placeholder {
                         color: #000;
