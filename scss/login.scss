@@ -24,10 +24,13 @@
     
         .log_in {
             position: relative;
-            width: 233px;
+            width: 260px;
             height: 400px;
             // background-color: antiquewhite;
             z-index: 10000;  
+            left: -60px;
+            top: 60px;
+
 
     
             .ltag {
@@ -53,8 +56,8 @@
                 
                 
                 input {
-                    width: 240px;
-                    height: 34px;
+                    width: 260px;
+                    height: 40px;
                     border-style: none;
                     border-bottom: 2px solid #000;
                     background-color: #FFD972;
@@ -72,8 +75,8 @@
                 top: 170px;
                 
                 input {
-                    width: 240px;
-                    height: 34px;
+                    width: 260px;
+                    height: 40px;
                     border-style: none;
                     border-bottom: 2px solid #000;
                     background-color: #FFD972;
@@ -110,9 +113,11 @@
         }
         
         .sign_up {
-            width: 233px;
+            width: 260px;
             height: 400px;
             // background-color: blueviolet;
+            margin-top: 60px;
+            margin-left: -80px;
     
             .stag {
                 // position: absolute;
@@ -153,8 +158,8 @@
     
                 .fn {
                     input {
-                        width: 240px;
-                        height: 34px;
+                        width: 260px;
+                        height: 40px;
                         border-style: none;
                         border-bottom: 2px solid #000;
                         text-align: left;
@@ -171,8 +176,8 @@
                 .ln {
                     margin-top: 20px;
                     input {
-                        width: 240px;
-                        height: 34px;
+                        width: 260px;
+                        height: 40px;
                         border-style: none;
                         border-bottom: 2px solid #000;
                         background-color: #FFD972;
@@ -188,8 +193,8 @@
                 .ea {
                     margin-top: 20px;
                     input {
-                        width: 240px;
-                        height: 34px;
+                        width: 260px;
+                        height: 40px;
                         border-style: none;
                         border-bottom: 2px solid #000;background-color: #FFD972;
                         
@@ -204,8 +209,8 @@
                 .pw {
                     margin-top: 20px;
                     input {
-                        width: 240px;
-                        height: 34px;
+                        width: 260px;
+                        height: 40px;
                         border-style: none;
                         border-bottom: 2px solid #000;background-color: #FFD972;
                         
@@ -229,7 +234,7 @@
                     text-align: center;
                     justify-content: space-around;
                     margin: 0 auto;
-                    margin-top: 80px;
+                    margin-top: 100px;
 
                     a {   
                         font-family: caveat_regular;
