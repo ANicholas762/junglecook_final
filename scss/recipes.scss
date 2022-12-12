@@ -3,7 +3,7 @@
     top: 0;
     z-index: -1;
     width: 100%;
-    height: 934px;
+    height: 948px;
     background-color: lightpink;
 
     background-image: linear-gradient(rgba(167,232,189,0.6),rgba(167,232,189,0.6)), url(../images/recipe-hero.jpg);
@@ -66,7 +66,7 @@
                 background-color: #fff;
                 border-radius: 24px;
     
-                h2 {
+                a {
                     position: relative;
                     width: 140px;
                     height: 24px;
@@ -78,9 +78,10 @@
                     color: #000;
                     opacity: 1;
     
-                    margin: 0 auto;
-                    top: 40px;
+                    margin-left: 64px;
+                    top: 50px;
                     border-bottom: 4px solid #000;
+                    text-decoration: none;
                 }
     
                 p {
