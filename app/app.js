@@ -30,8 +30,11 @@ function logOut() {
 }
 
 function logIn() {
-  $(".login_in").on("click", function (e) {
+  $("#sbtn").on("click", function (e) {
     console.log("submit");
+
+    $("nav").append(`<a href="#yourRecipes">Your recipes</a>`);
+    $("nav").append(`<a href="#yourRecipes">Your recipes</a>`);
 
     let email = $(".lemail").val();
     let password = $(".lpword").val();
