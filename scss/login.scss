@@ -250,3 +250,14 @@
 }
 
 }
+
+@media all and (max-width:1000px
+){
+    .inputs {
+      flex-direction: column;
+      margin-bottom: 30px;
+    //   margin-top: 100px;
+    //   height: 1500px;
+      
+  }
+}

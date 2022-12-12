@@ -535,8 +535,12 @@
   top: 10px;
 }
 
-@media only screen and (max-width: 800px) {
-  body {
-    background-color: #000;
+@media all and (max-width: 1000px) {
+  .row_one, .row_two {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
   }
 }
