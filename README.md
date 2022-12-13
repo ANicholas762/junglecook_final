@@ -5,7 +5,7 @@
 
 ## Task
 
-- For this final, your team will be taking this prototype, https://xd.adobe.com/spec/000d9233-c620-4eb6-5884-adaea1a04abb-763c/ Links to an external site., and making it fully functional. This site must be fully responsive for desktops and tablets, 1024×768, and must be a fully working CRUD application. Assets for this project can be found in Files > Final > images.
+- For this final, your team will be taking this [prototype](https://xd.adobe.com/spec/000d9233-c620-4eb6-5884-adaea1a04abb-763c/). Links to an external site., and making it fully functional. This site must be fully responsive for desktops and tablets, 1024×768, and must be a fully working CRUD application. Assets for this project can be found in Files > Final > images.
 
 - Use a JSON strings stored in memory, local storage or Firebase.
 - Must have user feedback. For example alerts when user manipulates data.
