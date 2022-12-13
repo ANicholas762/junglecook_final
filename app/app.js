@@ -34,7 +34,7 @@ function logIn() {
     console.log("submit");
 
     $("nav").append(`<a href="#yourRecipes">Your recipes</a>`);
-    $("nav").append(`<a href="#yourRecipes">Your recipes</a>`);
+   
 
     let email = $(".lemail").val();
     let password = $(".lpword").val();
