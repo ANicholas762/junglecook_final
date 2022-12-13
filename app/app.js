@@ -5,7 +5,6 @@ let signedIn = false;
 function changeRoute() {
   let hashTag = window.location.hash;
   let pageID = hashTag.replace("#", "");
-  // console.log(hashTag + " " + pageID);
   if (pageID == "" || pageID == "home") {
     MODEL.changePage(pageID, initSubmitListener);
   } else if (pageID == "books") {
@@ -59,7 +58,6 @@ function logIn() {
 function signUp() {
   $(".in_boxes").on("click", function (e) {
     console.log("submit");
-    //   trace("app.js", "submit");
 
     let fn = $(".fn").val();
     let ln = $(".ln").val();
@@ -101,11 +99,29 @@ function signUp() {
   });
 }
 
+let ingredCnt = 3;
+let instructionCnt = 3;
+
+function addBtn() {
+  $(".addBtnIng").on("click",(e) => {
+    
+    $(".recipe-section-ing").append(`<input type="text" id="ingred ${ingredCnt}" placeholder="Ingredient #${ingredCnt + 1}" />`);
+
+    console.log("ddd")
+
+    ingredCnt++;
+
+    
+
+  });
+}
+
+
 function initSubmitListener() {
   logIn();
   signUp();
   logOut();
-  
+  addBtn();
 }
 
 // function test() {
@@ -123,6 +139,8 @@ function initURLListener() {
 }
 
 $(document).ready(function () {
+
+  addBtn();
   initSubmitListener();
   logIn();
   logOut();
