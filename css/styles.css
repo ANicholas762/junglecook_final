@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -44,7 +43,6 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   height: 934px;
   background-color: palevioletred;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 92, 84, 0.6)), to(rgba(242, 92, 84, 0.6))), url(../images/hero.png);
   background-image: linear-gradient(rgba(242, 92, 84, 0.6), rgba(242, 92, 84, 0.6)), url(../images/hero.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -61,15 +59,9 @@ h1, h2, h3, h4, h5, h6, p {
 .top_banner {
   width: 100%;
   height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
@@ -124,25 +116,15 @@ h1, h2, h3, h4, h5, h6, p {
 .nav_log {
   width: 600px;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .nav_log nav {
   width: 350px;
   height: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  justify-content: right;
 }
 .nav_log nav a {
   padding: 0 16px;
@@ -157,14 +139,10 @@ h1, h2, h3, h4, h5, h6, p {
   height: 52px;
   background-color: #FFD972;
   border-radius: 22px;
-  -webkit-box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
-          box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
   display: flex;
   text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 .nav_log .login a {
   font-family: caveat_regular;
@@ -195,12 +173,8 @@ footer .links {
   height: 18px;
   top: 12px;
   left: 700px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 footer .links a {
   position: relative;
@@ -217,12 +191,8 @@ footer .iconsOne {
   height: 30px;
   top: -6px;
   left: 1600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 footer .iconsOne .fb {
   height: 30px;
@@ -248,7 +218,6 @@ footer .iconsOne .insta {
   width: 100%;
   height: 948px;
   background-color: lightpink;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(167, 232, 189, 0.6)), to(rgba(167, 232, 189, 0.6))), url(../images/recipe-hero.jpg);
   background-image: linear-gradient(rgba(167, 232, 189, 0.6), rgba(167, 232, 189, 0.6)), url(../images/recipe-hero.jpg);
   background-size: cover;
   background-position: center;
@@ -275,18 +244,13 @@ footer .iconsOne .insta {
   height: 263px;
   margin-top: 240px;
   margin-left: 260px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 .hero_two .row_one .rec_one {
   position: relative;
   width: 524px;
   height: 263px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .hero_two .row_one .rec_one .pizza_pic {
@@ -341,12 +305,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_one .rec_one .desc_one .serve .ico_piz {
   position: relative;
@@ -375,12 +335,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_one .rec_one .desc_one .cook .ico_piz {
   position: relative;
@@ -407,8 +363,6 @@ footer .iconsOne .insta {
   position: relative;
   width: 524px;
   height: 263px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .hero_two .row_one .rec_two .burger_pic {
@@ -462,12 +416,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_one .rec_two .desc_two .serve2 .ico_bur {
   position: relative;
@@ -496,12 +446,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_one .rec_two .desc_two .cook2 .ico_bur {
   position: relative;
@@ -530,18 +476,13 @@ footer .iconsOne .insta {
   height: 263px;
   margin-top: 300px;
   margin-left: -620px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 .hero_two .row_two .rec_three {
   position: relative;
   width: 524px;
   height: 263px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .hero_two .row_two .rec_three .cb_pic {
@@ -595,12 +536,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_two .rec_three .desc_three .serve3 .ico_cb {
   position: relative;
@@ -629,12 +566,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_two .rec_three .desc_three .cook3 .ico_cb {
   position: relative;
@@ -661,8 +594,6 @@ footer .iconsOne .insta {
   position: relative;
   width: 524px;
   height: 263px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .hero_two .row_two .rec_four .ccm_pic {
@@ -716,12 +647,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_two .rec_four .desc_four .serve4 .ico_ccm {
   position: relative;
@@ -750,12 +677,8 @@ footer .iconsOne .insta {
   height: 26px;
   margin: 0 auto;
   top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_two .row_two .rec_four .desc_four .cook4 .ico_ccm {
   position: relative;
@@ -781,10 +704,7 @@ footer .iconsOne .insta {
 
 @media all and (max-width: 1000px) {
   .row_one, .row_two {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-bottom: 30px;
   }
 }
@@ -802,12 +722,8 @@ footer .iconsOne .insta {
   height: 500px;
   margin: 0 auto;
   top: 180px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .hero_three .input_boxes .login_input {
   width: 240px;
@@ -870,22 +786,6 @@ footer .iconsOne .insta {
   border-bottom: 2px solid #000;
   background-color: #FFD972;
 }
-.lbox input ::-webkit-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.lbox input ::-moz-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.lbox input :-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.lbox input ::-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
 .lbox input ::placeholder {
   color: #000;
   font-family: lato_regular;
@@ -898,14 +798,10 @@ footer .iconsOne .insta {
   height: 52px;
   background-color: #FFD972;
   border-radius: 22px;
-  -webkit-box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
-          box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
   display: flex;
   text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-left: 26px;
   margin-top: 30px;
 }
@@ -929,22 +825,6 @@ footer .iconsOne .insta {
   border-bottom: 2px solid #000;
   background-color: #FFD972;
 }
-.sbox input ::-webkit-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.sbox input ::-moz-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.sbox input :-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.sbox input ::-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
 .sbox input ::placeholder {
   color: #000;
   font-family: lato_regular;
@@ -963,14 +843,10 @@ footer .iconsOne .insta {
   height: 52px;
   background-color: #FFD972;
   border-radius: 22px;
-  -webkit-box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
-          box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
   display: flex;
   text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-left: 70px;
   margin-top: 30px;
 }
@@ -983,10 +859,7 @@ footer .iconsOne .insta {
 
 @media all and (max-width: 1000px) {
   .inputs {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-bottom: 30px;
   }
 }
@@ -1006,19 +879,10 @@ footer .iconsOne .insta {
   width: 77%;
   max-width: 980px;
   margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
   margin-bottom: 60px;
 }
 #addRecipe-container #final-submit {
@@ -1027,8 +891,7 @@ footer .iconsOne .insta {
   height: 52px;
   background-color: #EFA7A7;
   border-radius: 22px;
-  -webkit-box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
-          box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
+  box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1607843137);
   text-align: center;
   font-family: lato-regular;
   font-size: 25px;
@@ -1036,19 +899,10 @@ footer .iconsOne .insta {
   cursor: pointer;
 }
 #addRecipe-container .recipe-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
   width: 100%;
   min-height: 480px;
   margin-bottom: 60px;
@@ -1057,15 +911,9 @@ footer .iconsOne .insta {
 #addRecipe-container .recipe-section .addBtn {
   width: 32px;
   height: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #EFA7A7;
   color: white;
   border-radius: 100%;
@@ -1074,10 +922,7 @@ footer .iconsOne .insta {
   position: absolute;
   bottom: 100px;
   right: 5px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 #addRecipe-container .recipe-section input {
   width: 100%;
@@ -1090,19 +935,10 @@ footer .iconsOne .insta {
 }
 #addRecipe-container .enter-section {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 #addRecipe-container .enter-section h3 {
@@ -1116,3 +952,5 @@ footer .iconsOne .insta {
   height: 200px;
   background-color: red;
 }
+
+/*# sourceMappingURL=styles.css.map */
