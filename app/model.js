@@ -102,8 +102,60 @@ export function changePage(pageID, callback) {
       
       $("#app").html(data);
 
-      $("")
+      $("#view-recipe").html(`
+      <div class="side_tag">
+      <h2>${recipes[rId].rName}</h2>
+  </div>
+  
+  <div class="top_box">
+      <div class="img_desc">
+          <div class="pizza_img"></div>
+          <div class="desc">
+              <div class="tag_one">
+                  <h1>Description:</h1>
+              </div>
+              <div class="tag_two">
+                  <p>${recipes[rId].rDescription}</p>
+              </div>
+  
+              <div class="tag_three">
+                  <h2>Total Time:</h2>
+              </div>
+  
+              <div class="tag_four">
+                  <p>${recipes[rId].rTime}</p>
+              </div>
+  
+              <div class="tag_five">
+                  <h2>Servings:</h2>
+              </div>
+  
+              <div class="tag_six">
+                  <p>${recipes[rId].rServingSize}</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="ingred">
+      <h2>Ingredients:</h2>
+      <p></p>
+  </div>
+  
+  <div class="instruct">
+      <h2>Instructions:</h2>
+      <p></p>
+  </div>
+  
+      `)
 
+      $.each(recipes[rId].ingredients, (idx, ing) => {
+        $(".ingred p").append(`<li>${ing}</li> <br>`)
+      });
+
+      $.each(recipes[rId].instructions, (idx, ins) => {
+        $(".instruct p").append(`<li>${ins}</li> <br>`)
+      });
       
     });
   
