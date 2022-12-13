@@ -163,7 +163,8 @@ export function changePage(pageID, callback) {
     $.get(`pages/${pageID}.html`, function (data) {
       
       $("#app").html(data);
-      //this is not styled corr
+      //this is not styled correctly
+      //
     });
   
   } else {
