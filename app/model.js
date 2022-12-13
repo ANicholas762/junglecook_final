@@ -98,11 +98,12 @@ export function changePage(pageID, callback) {
       callback();
     });
   } else if (pageID == "viewRecipe"){
-    $.get(`pages/${pageID}.html`, function (data) {
+    $.get(`pages/${pageID}/${rId}.html`, function (data) {
       
       $("#app").html(data);
 
-      
+      $("")
+
       
     });
   
