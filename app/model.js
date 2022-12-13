@@ -1,6 +1,6 @@
 var userInfo = {};
 
-var recipes = [
+ export var recipes = [
   {
     rImage: "recipe-pizza.jpg",
     rName: "Supreme Pizza",
