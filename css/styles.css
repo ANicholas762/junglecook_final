@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6, p {
   top: 0;
   z-index: -1;
   width: 100%;
-  height: 934px;
+  height: 1100px;
   background-color: palevioletred;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 92, 84, 0.6)), to(rgba(242, 92, 84, 0.6))), url(../images/hero.png);
   background-image: linear-gradient(rgba(242, 92, 84, 0.6), rgba(242, 92, 84, 0.6)), url(../images/hero.png);
@@ -246,7 +246,7 @@ footer .iconsOne .insta {
   top: 0;
   z-index: -1;
   width: 100%;
-  height: 948px;
+  height: 1100px;
   background-color: lightpink;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(167, 232, 189, 0.6)), to(rgba(167, 232, 189, 0.6))), url(../images/recipe-hero.jpg);
   background-image: linear-gradient(rgba(167, 232, 189, 0.6), rgba(167, 232, 189, 0.6)), url(../images/recipe-hero.jpg);
@@ -306,22 +306,6 @@ footer .iconsOne .insta {
   background-color: #fff;
   border-radius: 24px;
 }
-.hero_two .row_one .rec_one .desc_one a {
-  position: relative;
-  width: 140px;
-  height: 24px;
-  font-family: lato_regular;
-  text-transform: capitalize;
-  font-size: 15px;
-  text-align: left;
-  letter-spacing: 1.5px;
-  color: #000;
-  opacity: 1;
-  margin-left: 64px;
-  top: 50px;
-  border-bottom: 4px solid #000;
-  text-decoration: none;
-}
 .hero_two .row_one .rec_one .desc_one p {
   position: relative;
   width: 150px;
@@ -333,14 +317,14 @@ footer .iconsOne .insta {
   color: #000;
   opacity: 1;
   margin: 0 auto;
-  top: 60px;
+  top: 80px;
 }
 .hero_two .row_one .rec_one .desc_one .serve {
   position: relative;
   width: 120px;
   height: 26px;
   margin: 0 auto;
-  top: 90px;
+  top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,7 +358,7 @@ footer .iconsOne .insta {
   width: 120px;
   height: 26px;
   margin: 0 auto;
-  top: 100px;
+  top: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -779,6 +763,23 @@ footer .iconsOne .insta {
   top: 10px;
 }
 
+.pizza_link a {
+  position: relative;
+  width: 140px;
+  height: 24px;
+  font-family: lato_regular;
+  text-transform: capitalize;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 1.5px;
+  color: #000;
+  opacity: 1;
+  margin-left: 620px;
+  top: 200px;
+  border-bottom: 4px solid #000;
+  text-decoration: none;
+}
+
 @media all and (max-width: 1000px) {
   .row_one, .row_two {
     -webkit-box-orient: vertical;
@@ -1111,8 +1112,173 @@ footer .iconsOne .insta {
   margin-bottom: -40px;
 }
 
-.pizza_rec {
+.top_box {
+  width: 960px;
+  height: 422px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.top_box .img_desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.top_box .img_desc .pizza_img {
+  width: 468px;
+  height: 422px;
+  background-image: url(../images/recipe-pizza.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top_box .img_desc .desc {
+  width: 440px;
+  height: 422px;
+}
+.top_box .img_desc .desc .tag_one {
   width: 200px;
-  height: 200px;
-  background-color: red;
+  height: 40px;
+}
+.top_box .img_desc .desc .tag_one h1 {
+  text-align: left;
+  font-family: lato_bold;
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.top_box .img_desc .desc .tag_two {
+  width: 400px;
+  height: 60px;
+  margin-top: 40px;
+}
+.top_box .img_desc .desc .tag_two p {
+  text-align: left;
+  font-family: lato_italic;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.top_box .img_desc .desc .tag_three {
+  width: 200px;
+  height: 26px;
+  margin-top: 50px;
+}
+.top_box .img_desc .desc .tag_three h2 {
+  text-align: left;
+  font-family: lato_bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.top_box .img_desc .desc .tag_four {
+  width: 200px;
+  height: 20px;
+  margin-top: 30px;
+}
+.top_box .img_desc .desc .tag_four p {
+  text-align: left;
+  font-family: lato_italic;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.top_box .img_desc .desc .tag_five {
+  width: 200px;
+  height: 26px;
+  margin-top: 40px;
+}
+.top_box .img_desc .desc .tag_five h2 {
+  text-align: left;
+  font-family: lato_bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.top_box .img_desc .desc .tag_six {
+  width: 200px;
+  height: 40px;
+  margin-top: 40px;
+}
+.top_box .img_desc .desc .tag_six p {
+  text-align: left;
+  font-family: lato_italic;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+
+.side_tag {
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  margin-left: 20px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-top: 160px;
+  margin-left: 260px;
+}
+.side_tag h2 {
+  text-align: left;
+  font-family: lato_bold;
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+
+.ingred {
+  width: 960px;
+  height: 220px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.ingred h2 {
+  text-align: left;
+  font-family: lato_bold;
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.ingred p {
+  text-align: left;
+  font-family: lato_italic;
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+
+.instruct {
+  width: 960px;
+  height: 420px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.instruct h2 {
+  text-align: left;
+  font-family: lato_bold;
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.instruct p {
+  text-align: left;
+  font-family: lato_italic;
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
 }

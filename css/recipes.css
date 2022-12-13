@@ -3,7 +3,7 @@
   top: 0;
   z-index: -1;
   width: 100%;
-  height: 948px;
+  height: 1100px;
   background-color: lightpink;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(167, 232, 189, 0.6)), to(rgba(167, 232, 189, 0.6))), url(../images/recipe-hero.jpg);
   background-image: linear-gradient(rgba(167, 232, 189, 0.6), rgba(167, 232, 189, 0.6)), url(../images/recipe-hero.jpg);
@@ -63,22 +63,6 @@
   background-color: #fff;
   border-radius: 24px;
 }
-.hero_two .row_one .rec_one .desc_one a {
-  position: relative;
-  width: 140px;
-  height: 24px;
-  font-family: lato_regular;
-  text-transform: capitalize;
-  font-size: 15px;
-  text-align: left;
-  letter-spacing: 1.5px;
-  color: #000;
-  opacity: 1;
-  margin-left: 64px;
-  top: 50px;
-  border-bottom: 4px solid #000;
-  text-decoration: none;
-}
 .hero_two .row_one .rec_one .desc_one p {
   position: relative;
   width: 150px;
@@ -90,14 +74,14 @@
   color: #000;
   opacity: 1;
   margin: 0 auto;
-  top: 60px;
+  top: 80px;
 }
 .hero_two .row_one .rec_one .desc_one .serve {
   position: relative;
   width: 120px;
   height: 26px;
   margin: 0 auto;
-  top: 90px;
+  top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,7 +115,7 @@
   width: 120px;
   height: 26px;
   margin: 0 auto;
-  top: 100px;
+  top: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -534,6 +518,23 @@
   opacity: 1;
   text-align: center;
   top: 10px;
+}
+
+.pizza_link a {
+  position: relative;
+  width: 140px;
+  height: 24px;
+  font-family: lato_regular;
+  text-transform: capitalize;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 1.5px;
+  color: #000;
+  opacity: 1;
+  margin-left: 620px;
+  top: 200px;
+  border-bottom: 4px solid #000;
+  text-decoration: none;
 }
 
 @media all and (max-width: 1000px) {

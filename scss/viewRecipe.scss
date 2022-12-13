@@ -1,5 +1,200 @@
- .pizza_rec {
-    width: 200px;
-    height: 200px;
-    background-color: red;
- }
+.top_box {
+   width: 960px;
+   height: 422px;
+   // background-color: black;
+   margin: 0 auto;
+   margin-top: 60px;
+
+  .img_desc {
+   display: flex;
+   justify-content: space-between;
+
+   .pizza_img {
+      width: 468px;
+      height: 422px;
+      // background-color: pink;
+
+      background-image: url(../images/recipe-pizza.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+   }
+
+   .desc {
+      width: 440px;
+      height: 422px;
+      // background-color: pink;
+
+      .tag_one {
+         width: 200px;
+         height: 40px;
+         // background-color: olive;
+         // margin-top: 40px;
+
+         h1 {
+            text-align: left;
+            font-family: lato_bold;
+            font-size: 28px;
+          letter-spacing: 3px;
+          color: #000000;
+          opacity: 1;
+          }
+      }
+
+
+      .tag_two {
+         width: 400px;
+         height: 60px;
+         // background-color: olive;
+         margin-top: 40px;
+
+         p {
+            text-align: left;
+            font-family: lato_italic;
+            font-size: 16px;
+          letter-spacing: 3px;
+          color: #000000;
+          opacity: 1;
+          }
+      }
+
+      .tag_three {
+         width: 200px;
+         height: 26px;
+         // background-color: olive;
+         margin-top: 50px;
+
+         h2 {
+            text-align: left;
+            font-family: lato_bold;
+            font-size: 20px;
+          letter-spacing: 3px;
+          color: #000000;
+          opacity: 1;
+          }
+      }
+
+      .tag_four {
+         width: 200px;
+         height: 20px;
+         // background-color: olive;
+         margin-top: 30px;
+
+         p {
+            text-align: left;
+            font-family: lato_italic;
+            font-size: 16px;
+          letter-spacing: 3px;
+          color: #000000;
+          opacity: 1;
+          }
+      }
+
+      .tag_five {
+         width: 200px;
+         height: 26px;
+         // background-color: olive;
+         margin-top: 40px;
+
+         h2 {
+            text-align: left;
+            font-family: lato_bold;
+            font-size: 20px;
+          letter-spacing: 3px;
+          color: #000000;
+          opacity: 1;
+          }
+      }
+
+      .tag_six {
+         width: 200px;
+         height: 40px;
+         // background-color: olive;
+         margin-top: 40px;
+
+         p {
+            text-align: left;
+            font-family: lato_italic;
+            font-size: 16px;
+          letter-spacing: 3px;
+          color: #000000;
+          opacity: 1;
+          }
+      }
+   }
+  }
+}
+
+.side_tag {
+   position: absolute;
+   width: 220px;
+   height: 40px;
+   // background-color: aqua;
+   margin-left: 20px;
+   transform: rotate(-90deg);
+   margin-top: 160px;
+   margin-left: 260px;
+
+   h2 {
+      text-align: left;
+      font-family: lato_bold;
+      font-size: 24px;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 1;
+    }
+}
+
+.ingred {
+   width: 960px;
+   height: 220px;
+   // background-color: pink;
+   margin: 0 auto;
+   margin-top: 40px;
+
+   h2 {
+      text-align: left;
+      font-family: lato_bold;
+      font-size: 28px;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 1;
+    }
+
+    p {
+      text-align: left;
+      font-family: lato_italic;
+      font-weight: lighter;
+      font-size: 18px;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 1;
+    }
+}
+
+.instruct {
+   width: 960px;
+   height: 420px;
+   //background-color: pink;
+   margin: 0 auto;
+   margin-top: 40px;
+
+   h2 {
+      text-align: left;
+      font-family: lato_bold;
+      font-size: 28px;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 1;
+    }
+
+    p {
+      text-align: left;
+      font-family: lato_italic;
+      font-weight: lighter;
+      font-size: 18px;
+    letter-spacing: 3px;
+    color: #000000;
+    opacity: 1;
+    }
+}
