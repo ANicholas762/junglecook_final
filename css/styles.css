@@ -288,13 +288,7 @@ footer .iconsOne .insta {
   width: 120px;
   height: 26px;
   margin: 0 auto;
-<<<<<<< HEAD
   top: 110px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-=======
-  top: 90px;
->>>>>>> 37fee5c58383f2dd4c16a2c81438e5737a72caa2
   display: flex;
   justify-content: space-between;
 }
@@ -324,13 +318,7 @@ footer .iconsOne .insta {
   width: 120px;
   height: 26px;
   margin: 0 auto;
-<<<<<<< HEAD
   top: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-=======
-  top: 100px;
->>>>>>> 37fee5c58383f2dd4c16a2c81438e5737a72caa2
   display: flex;
   justify-content: space-between;
 }
@@ -983,12 +971,8 @@ footer .iconsOne .insta {
   margin-top: 60px;
 }
 .top_box .img_desc {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .top_box .img_desc .pizza_img {
   width: 468px;
@@ -1004,7 +988,6 @@ footer .iconsOne .insta {
 }
 .top_box .img_desc .desc .tag_one {
   width: 200px;
-<<<<<<< HEAD
   height: 40px;
 }
 .top_box .img_desc .desc .tag_one h1 {
@@ -1086,8 +1069,7 @@ footer .iconsOne .insta {
   width: 220px;
   height: 40px;
   margin-left: 20px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   margin-top: 160px;
   margin-left: 260px;
 }
@@ -1147,10 +1129,5 @@ footer .iconsOne .insta {
   color: #000000;
   opacity: 1;
 }
-=======
-  height: 200px;
-  background-color: red;
-}
 
 /*# sourceMappingURL=styles.css.map */
->>>>>>> 37fee5c58383f2dd4c16a2c81438e5737a72caa2
