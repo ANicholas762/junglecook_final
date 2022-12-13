@@ -103,17 +103,56 @@ let ingredCnt = 3;
 let instructionCnt = 3;
 
 function addBtn() {
+  
+
   $(".addBtnIng").on("click",(e) => {
     
     $(".recipe-section-ing").append(`<input type="text" id="ingred ${ingredCnt}" placeholder="Ingredient #${ingredCnt + 1}" />`);
 
-    console.log("ddd")
+
 
     ingredCnt++;
 
     
 
   });
+
+  $(".addBtnIns").on("click",(e) => {
+    
+    $(".recipe-section-ins").append(`<input type="text" id="ingred ${instructionCnt}" placeholder="Ingredient #${instructionCnt + 1}" />`);
+
+
+
+    instructionCnt++;
+
+    
+
+  });
+
+  $("#final-submit").on("click", (e) => {
+
+    
+    MODEL.recipes.push({rImage: $(".recipe-section #rImage").value});
+    MODEL.recipes.push({rName: $(".recipe-section #rName").value});
+    MODEL.recipes.push({rDescription: $(".recipe-section #rDesc").value});
+    MODEL.recipes.push({rTime: $(".recipe-section #rTT").value});
+    MODEL.recipes.push({rServingSize: $(".recipe-section #rSS").value});
+
+    e.preventDefault();
+
+    $(".recipe-section-ing input").each((idx, step) => {
+      
+      MODEL.recipes.steps.push({step: step.value});
+
+      
+    })
+
+    $(".recipe-section-ing input").each((idx, ingredient) => {
+      
+
+      MODEL.recipes.ingredients.push({ingredients: ingredient.value});
+    })
+  })
 }
 
 
@@ -121,7 +160,7 @@ function initSubmitListener() {
   logIn();
   signUp();
   logOut();
-  addBtn();
+
 }
 
 // function test() {
