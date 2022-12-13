@@ -19,5 +19,5 @@
 
 ### What we worked on
 
-- Antera: nav, home page, recipes page, footer, login page, view recipe page styling
-- Giovanni: jQuery, Create your recipe page, your recipes page, view recipe page dynamically loaded in jQuery, edit recipes page in jQuery.
+- Antera: nav, home page, recipes page, footer, login page, view recipe page styling, responsiveness for pages listed
+- Giovanni: jQuery, Create your recipe page, your recipes page, view recipe page dynamically loaded in jQuery, edit recipes page in jQuery. Responsiveness for create/update recipe
