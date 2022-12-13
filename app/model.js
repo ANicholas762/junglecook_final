@@ -82,7 +82,7 @@ export function changePage(pageID, callback) {
   
   } else {
     $.get(`pages/${pageID}.html`, function (data) {
-     
+     console.log('data ', data)
       $("#app").html(data);
       
     });

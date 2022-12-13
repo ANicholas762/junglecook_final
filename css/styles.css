@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+#app {
+  height: 100%;
+}
+
 @font-face {
   font-family: caveat_regular;
   src: url(../css/fonts/Caveat-Regular.ttf);
@@ -789,106 +793,107 @@ footer .iconsOne .insta {
   top: 0;
   z-index: -1;
   width: 100%;
-  height: 948px;
+  height: 1400px;
   background-color: #FFD972;
 }
-.hero_three .inputs {
-  width: 1200px;
-  height: 400px;
-  margin: 0 auto;
+.hero_three .input_boxes {
   position: relative;
-  top: 200px;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  top: 180px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.hero_three .inputs .log_in {
-  position: relative;
-  width: 260px;
-  height: 400px;
-  z-index: 10000;
-  left: -60px;
-  top: 60px;
+.hero_three .input_boxes .login_input {
+  width: 240px;
+  height: 500px;
 }
-.hero_three .inputs .log_in .ltag {
-  position: absolute;
-  width: 180px;
-  height: 26px;
-  top: 60px;
+.hero_three .input_boxes .login_input .headline_one {
+  width: 200px;
+  height: 40px;
+  margin-top: 100px;
 }
-.hero_three .inputs .log_in .ltag h2 {
-  font-size: 30px;
-  font-family: lato_regular;
+.hero_three .input_boxes .login_input .headline_one h2 {
   text-align: left;
-  text-transform: capitalize;
-  font-weight: lighter;
-  color: #000;
+  font-family: lato_bold;
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
 }
-.hero_three .inputs .log_in .lemail {
-  position: absolute;
-  top: 120px;
+.hero_three .input_boxes .signup_input {
+  width: 340px;
+  height: 500px;
 }
-.hero_three .inputs .log_in .lemail input {
+.hero_three .input_boxes .signup_input .headline_two {
   width: 260px;
+  height: 20px;
+  margin-top: 40px;
+}
+.hero_three .input_boxes .signup_input .headline_two p {
+  text-align: left;
+  font-family: lato_italic;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+.hero_three .input_boxes .signup_input .tagline_two {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+}
+.hero_three .input_boxes .signup_input .tagline_two h2 {
+  text-align: left;
+  font-family: lato_bold;
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+
+.lbox {
+  width: 240px;
+  height: 200px;
+  margin-left: 376px;
+  margin-top: 260px;
+}
+.lbox input {
+  width: 240px;
   height: 40px;
   border-style: none;
   border-bottom: 2px solid #000;
   background-color: #FFD972;
 }
-.hero_three .inputs .log_in .lemail input ::-webkit-input-placeholder {
+.lbox input ::-webkit-input-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .log_in .lemail input ::-moz-placeholder {
+.lbox input ::-moz-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .log_in .lemail input :-ms-input-placeholder {
+.lbox input :-ms-input-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .log_in .lemail input ::-ms-input-placeholder {
+.lbox input ::-ms-input-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .log_in .lemail input ::placeholder {
+.lbox input ::placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .log_in .lpword {
-  position: absolute;
-  top: 170px;
+.lbox .pword_one {
+  margin-top: 20px;
 }
-.hero_three .inputs .log_in .lpword input {
-  width: 260px;
-  height: 40px;
-  border-style: none;
-  border-bottom: 2px solid #000;
-  background-color: #FFD972;
-}
-.hero_three .inputs .log_in .lpword input ::-webkit-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .log_in .lpword input ::-moz-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .log_in .lpword input :-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .log_in .lpword input ::-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .log_in .lpword input ::placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .log_in .login #lbtn {
+.lbox .sub_one {
   width: 158px;
   height: 52px;
   background-color: #FFD972;
@@ -901,173 +906,59 @@ footer .iconsOne .insta {
   text-align: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 0 auto;
-  margin-top: 230px;
+  margin-left: 26px;
+  margin-top: 30px;
 }
-.hero_three .inputs .log_in .login #lbtn a {
+.lbox .sub_one a {
   font-family: caveat_regular;
   font-size: 32px;
   text-decoration: none;
   color: #000;
 }
-.hero_three .inputs .sign_up {
-  width: 260px;
-  height: 400px;
-  margin-top: 60px;
-  margin-left: -80px;
+
+.sbox {
+  width: 340px;
+  height: 300px;
+  margin-left: 1036px;
+  margin-top: -220px;
 }
-.hero_three .inputs .sign_up .stag {
-  width: 150px;
-  height: 16px;
-  top: 60px;
-}
-.hero_three .inputs .sign_up .stag h4 {
-  position: relative;
-  font-size: 12px;
-  font-family: lato_italic;
-  text-align: left;
-  text-transform: lowercase;
-  font-weight: bold;
-  color: #000;
-  top: 18px;
-}
-.hero_three .inputs .sign_up .stag h2 {
-  font-size: 20px;
-  font-family: lato_regular;
-  text-align: left;
-  text-transform: capitalize;
-  font-weight: lighter;
-  color: #000;
-}
-.hero_three .inputs .sign_up .in_boxes {
-  position: relative;
-  width: 233px;
-  height: 200px;
-  display: inline-block;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  top: 60px;
-}
-.hero_three .inputs .sign_up .in_boxes .fn input {
-  width: 260px;
+.sbox input {
+  width: 280px;
   height: 40px;
   border-style: none;
   border-bottom: 2px solid #000;
-  text-align: left;
   background-color: #FFD972;
 }
-.hero_three .inputs .sign_up .in_boxes .fn input ::-webkit-input-placeholder {
+.sbox input ::-webkit-input-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .sign_up .in_boxes .fn input ::-moz-placeholder {
+.sbox input ::-moz-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .sign_up .in_boxes .fn input :-ms-input-placeholder {
+.sbox input :-ms-input-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .sign_up .in_boxes .fn input ::-ms-input-placeholder {
+.sbox input ::-ms-input-placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .sign_up .in_boxes .fn input ::placeholder {
+.sbox input ::placeholder {
   color: #000;
   font-family: lato_regular;
 }
-.hero_three .inputs .sign_up .in_boxes .ln {
+.sbox .ln {
   margin-top: 20px;
 }
-.hero_three .inputs .sign_up .in_boxes .ln input {
-  width: 260px;
-  height: 40px;
-  border-style: none;
-  border-bottom: 2px solid #000;
-  background-color: #FFD972;
-}
-.hero_three .inputs .sign_up .in_boxes .ln input ::-webkit-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ln input ::-moz-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ln input :-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ln input ::-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ln input ::placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ea {
+.sbox .em_two {
   margin-top: 20px;
 }
-.hero_three .inputs .sign_up .in_boxes .ea input {
-  width: 260px;
-  height: 40px;
-  border-style: none;
-  border-bottom: 2px solid #000;
-  background-color: #FFD972;
-}
-.hero_three .inputs .sign_up .in_boxes .ea input ::-webkit-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ea input ::-moz-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ea input :-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ea input ::-ms-input-placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .ea input ::placeholder {
-  color: #000;
-  font-family: lato_regular;
-}
-.hero_three .inputs .sign_up .in_boxes .pw {
+.sbox .pw_two {
   margin-top: 20px;
 }
-.hero_three .inputs .sign_up .in_boxes .pw input {
-  width: 260px;
-  height: 40px;
-  border-style: none;
-  border-bottom: 2px solid #000;
-  background-color: #FFD972;
-}
-.hero_three .inputs .sign_up .in_boxes .pw input ::-webkit-input-placeholder {
-  color: #000;
-  font-family: SegoeUi;
-}
-.hero_three .inputs .sign_up .in_boxes .pw input ::-moz-placeholder {
-  color: #000;
-  font-family: SegoeUi;
-}
-.hero_three .inputs .sign_up .in_boxes .pw input :-ms-input-placeholder {
-  color: #000;
-  font-family: SegoeUi;
-}
-.hero_three .inputs .sign_up .in_boxes .pw input ::-ms-input-placeholder {
-  color: #000;
-  font-family: SegoeUi;
-}
-.hero_three .inputs .sign_up .in_boxes .pw input ::placeholder {
-  color: #000;
-  font-family: SegoeUi;
-}
-.hero_three .inputs .sign_up .signup #sbtn {
+.sbox .sub_two {
   width: 158px;
   height: 52px;
   background-color: #FFD972;
@@ -1080,10 +971,10 @@ footer .iconsOne .insta {
   text-align: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin-left: 70px;
+  margin-top: 30px;
 }
-.hero_three .inputs .sign_up .signup #sbtn a {
+.sbox .sub_two a {
   font-family: caveat_regular;
   font-size: 32px;
   text-decoration: none;

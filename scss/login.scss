@@ -3,254 +3,182 @@
     top: 0;
     z-index: -1;
     width: 100%;
-    height: 948px;
+    height: 1400px;
     background-color: #FFD972;
 
-    // .log_in {
-    //     width: 280px;
-    //     height: 400px;
-    //     background-color: blueviolet;
-    // }
-
-    .inputs {
-        width: 1200px;
-        height: 400px;
-        // background-color: brown;
+    .input_boxes {
+      position: relative;
+        width: 1000px;
+        height: 500px;
+        // background-color: black;
         margin: 0 auto;
-        position: relative;
-        top: 200px;
+        top: 180px;
+
         display: flex;
-        justify-content: space-around;
-    
-        .log_in {
-            position: relative;
-            width: 260px;
-            height: 400px;
-            // background-color: antiquewhite;
-            z-index: 10000;  
-            left: -60px;
-            top: 60px;
+        justify-content: space-between;
 
+        .login_input {
+          width: 240px;
+          height: 500px;
+          // background-color: pink;
 
-    
-            .ltag {
-                position: absolute;
-                width: 180px;
-                height: 26px;
-                // background-color: palevioletred;
-                top: 60px;
-    
-                h2 {
-                    font-size: 30px;
-                    font-family: lato_regular;
-                    text-align: left;
-                    text-transform: capitalize;
-                    font-weight: lighter;
-                    color: #000;
-                }
-            }
-    
-            .lemail {
-                position: absolute;
-                top: 120px;
-                
-                
-                input {
-                    width: 260px;
-                    height: 40px;
-                    border-style: none;
-                    border-bottom: 2px solid #000;
-                    background-color: #FFD972;
-                
+          .headline_one {
+            width: 200px;
+            height: 40px;
+            // background-color: olive;
+            margin-top: 100px;
 
-                    
-                    
-                    ::placeholder {
-                        color: #000;
-                        font-family: lato_regular;
-                    }
-                }
+            h2 {
+              text-align: left;
+              font-family: lato_bold;
+              font-size: 28px;
+            letter-spacing: 3px;
+            color: #000000;
+            opacity: 1;
             }
-    
-            .lpword {
-                position: absolute;
-                top: 170px;
-                
-                input {
-                    width: 260px;
-                    height: 40px;
-                    border-style: none;
-                    border-bottom: 2px solid #000;
-                    background-color: #FFD972;
-    
-                    ::placeholder {
-                        color: #000;
-                        font-family: lato_regular;
-                    }
-                }
-            }
-    
-            .login {
-                #lbtn {
-                    width: 158px;
-                    height: 52px;
-                    background-color: #FFD972;
-                    border-radius: 22px;
-                    box-shadow: 0px 10px 6px #00000029;
-                    display: flex;
-                    text-align: center;
-                    justify-content: space-around;
-                    margin: 0 auto;
-                    margin-top: 230px;
-
-                    a {   
-                        font-family: caveat_regular;
-                        font-size: 32px;
-                        text-decoration: none;
-                        color: #000;
-                    }
-    
-                }
-            }
+          }
         }
-        
-        .sign_up {
-            width: 260px;
-            height: 400px;
-            // background-color: blueviolet;
-            margin-top: 60px;
-            margin-left: -80px;
-    
-            .stag {
-                // position: absolute;
-                width: 150px;
-                height: 16px;
-                // background-color: palevioletred;
-                top: 60px;
-    
-                h4 {
-                    position: relative;
-                    font-size: 12px;
-                    font-family: lato_italic;
-                    text-align: left;
-                    text-transform: lowercase;
-                    font-weight: bold;
-                    color: #000;
-                    top: 18px;
-                }
-    
-                h2 {
-                    font-size: 20px;
-                    font-family: lato_regular;
-                    text-align: left;
-                    text-transform: capitalize;
-                    font-weight: lighter;
-                    color: #000;
-                }
-            }
-    
-            .in_boxes {
-                position: relative;
-                width: 233px;
-                height: 200px;
-                // background-color: antiquewhite;
-                display: inline-block;
-                justify-content: space-evenly;
-                top: 60px;
-    
-                .fn {
-                    input {
-                        width: 260px;
-                        height: 40px;
-                        border-style: none;
-                        border-bottom: 2px solid #000;
-                        text-align: left;
-                        background-color: #FFD972;
-                        
-                    
-                        ::placeholder {
-                            color: #000;
-                            font-family: lato_regular;
-                        }
-                    }
-                }
-    
-                .ln {
-                    margin-top: 20px;
-                    input {
-                        width: 260px;
-                        height: 40px;
-                        border-style: none;
-                        border-bottom: 2px solid #000;
-                        background-color: #FFD972;
-                        
-                    
-                        ::placeholder {
-                            color: #000;
-                            font-family: lato_regular;
-                        }
-                    }
-                }
-    
-                .ea {
-                    margin-top: 20px;
-                    input {
-                        width: 260px;
-                        height: 40px;
-                        border-style: none;
-                        border-bottom: 2px solid #000;background-color: #FFD972;
-                        
-                    
-                        ::placeholder {
-                            color: #000;
-                            font-family: lato_regular;
-                        }
-                    }
-                }
-    
-                .pw {
-                    margin-top: 20px;
-                    input {
-                        width: 260px;
-                        height: 40px;
-                        border-style: none;
-                        border-bottom: 2px solid #000;background-color: #FFD972;
-                        
-                    
-                        ::placeholder {
-                            color: #000;
-                            font-family: SegoeUi;
-                        }
-                    }
-                }
-            }
-    
-            .signup {
-                #sbtn {
-                    width: 158px;
-                    height: 52px;
-                    background-color: #FFD972;
-                    border-radius: 22px;
-                    box-shadow: 0px 10px 6px #00000029;
-                    display: flex;
-                    text-align: center;
-                    justify-content: space-around;
-                    margin: 0 auto;
-                    margin-top: 100px;
 
-                    a {   
-                        font-family: caveat_regular;
-                        font-size: 32px;
-                        text-decoration: none;
-                        color: #000;
-                    }
-    
+        .signup_input {
+          width: 340px;
+          height: 500px;
+          // background-color: pink;
+
+          .headline_two {
+            width: 260px;
+            height: 20px;
+            // background-color: olive;
+            margin-top: 40px;
+
+            p {
+              text-align: left;
+              font-family: lato_italic;
+              font-size: 16px;
+              letter-spacing: 3px;
+              color: #000000;
+              opacity: 1;
             }
-    
+
+          }
+
+          .tagline_two {
+            width: 200px;
+            height: 40px;
+            // background-color: olive;
+            margin-top: 10px;
+
+            h2 {
+              text-align: left;
+              font-family: lato_bold;
+              font-size: 28px;
+            letter-spacing: 3px;
+            color: #000000;
+            opacity: 1;
+            }
+          }
+
+
         }
     }
 }
 
+.lbox {
+  width: 240px;
+  height: 200px;
+  // background-color: antiquewhite;
+  margin-left: 376px;
+  margin-top: 260px;
+
+
+  input {
+    width: 240px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 2px solid #000;
+    background-color: #FFD972;
+
+    ::placeholder {
+      color: #000;
+      font-family: lato_regular;
+  }
+  }
+
+  .pword_one {
+    margin-top: 20px;
+  }
+
+  .sub_one {
+    width: 158px;
+    height: 52px;
+    background-color: #FFD972;
+    border-radius: 22px;
+    box-shadow: 0px 10px 6px #00000029;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 26px;
+    margin-top: 30px;
+
+    a {   
+      font-family: caveat_regular;
+      font-size: 32px;
+      text-decoration: none;
+      color: #000;
+  }
+  }
+}
+
+.sbox {
+  width: 340px;
+  height: 300px;
+  // background-color: antiquewhite;
+  margin-left: 1036px;
+  margin-top: -220px;
+
+  input {
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 2px solid #000;
+    background-color: #FFD972;
+
+    ::placeholder {
+      color: #000;
+      font-family: lato_regular;
+  }
+  }
+
+  .ln{
+    margin-top: 20px;
+  }
+
+  .em_two {
+    margin-top: 20px;
+  }
+
+  .pw_two {
+    margin-top: 20px;
+  }
+
+  .sub_two {
+    width: 158px;
+    height: 52px;
+    background-color: #FFD972;
+    border-radius: 22px;
+    box-shadow: 0px 10px 6px #00000029;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-top: 30px;
+
+    a {   
+      font-family: caveat_regular;
+      font-size: 32px;
+      text-decoration: none;
+      color: #000;
+  }
+  }
 }
 
 @media all and (max-width:1000px

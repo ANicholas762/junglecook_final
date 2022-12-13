@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
 }
 
+#app {
+    height: 100%;
+}
+
 @font-face {
     font-family: caveat_regular;
     src: url(../css/fonts/Caveat-Regular.ttf);
