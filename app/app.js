@@ -102,6 +102,10 @@ function signUp() {
 let ingredCnt = 3;
 let instructionCnt = 3;
 
+function deleteRecipe() {
+  
+}
+
 function addBtn() {
   
 

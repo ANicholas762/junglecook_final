@@ -101,6 +101,8 @@ export function changePage(pageID, callback) {
     $.get(`pages/${pageID}.html`, function (data) {
       
       $("#app").html(data);
+
+      
       
     });
   
@@ -120,7 +122,7 @@ export function changePage(pageID, callback) {
   }
 }
 
-// getters and setters
+
 export function setUserInfo(userObj) {
   userInfo = userObj;
   console.log(userInfo);
